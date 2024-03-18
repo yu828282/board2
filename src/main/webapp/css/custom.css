@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+.pagination > li > a
+{
+    background-color: white;
+    color: #212529;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover
+{
+    background-color: #eee;
+    border-color: #ddd;
+}
+
+.pagination > .active > a
+{
+    background-color: #cfe2ff;
+    border: solid 1px #cfe2ff;
+}
+
+.pagination > .active > a:hover
+{
+    color: #212529;
+    background-color: #eee;
+    border: solid 1px #eee;
+}
+
+.custom-button {
+    color: #212529;
+    background-color: #cfe2ff;
+}
+.custom-button:focus, 
+.custom-button:hover, 
+.custom-button:active {
+    color: #212529;
+    background-color: #00000013;
+    border: solid 1px #00000013;
+	
+}
+
+.custom-a-link{
+    color: #212529;
+}
+
+.custom-icon{
+	filter: grayscale(100%) brightness(0%) invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg);
+}
+.custom-overlay-text{
+      position: absolute;
+      top: 63%;
+      left: 43%;
+      transform: translate(-50%, -50%);
+      font-size: 20px;
+      font-weight: bold;
+      color: #212529;
+}
+text{
+    color: #212529;
+}
+.custom-slide{
+  position: relative;
+  width: 100%;
+  height: 500px;	
+}
+.carousel-caption-custom{
+   bottom: 8rem;
+}
+
+.custom-slide-img{
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;	
+  filter: brightness(50%);
+}
+
+.custom-slide-button{
+	border-radius : 16px;
+}
+
+.custom-slide-button:focus, 
+.custom-slide-button:hover, 
+.custom-slide-button:active {
+	border-radius : 16px;
+}
+
+.password-toggle-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.password-toggle-icon-login{
+    position: absolute;
+    right: 10%;
+    top: 40%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.carousel-back-color{
+	background-color: #000;
+ }
